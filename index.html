@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한글 요정 학교</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>한글 요정 학교</h1>
+    <div id="level-display">1교실</div>
+    <div id="star-display">⭐ 0</div>
+  </header>
+
+  <main>
+    <img id="teacher" class="char" src="img/teacher.png" alt="선생님"/>
+    <img id="ghost" class="char" src="img/ghost1.png" alt="요정"/>
+    <div id="word-box"><span id="word-text">가</span></div>
+    <button id="speak-btn">🎤 말해요</button>
+    <p id="spoken"></p>
+    <p id="tip"></p>
+    <p id="result"></p>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
